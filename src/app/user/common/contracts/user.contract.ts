@@ -1,4 +1,4 @@
-import {LessonModel} from "../../../common/models/lesson.model";
+import {LessonModel} from "../../../lesson/common/models/lesson.model";
 
 export default abstract class UserContract {
   abstract getLessons(type:string): LessonModel[];
